@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.leclowndu93150.ftb_quests_old_style_scroll_wheel.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "ftb_quests_old_style_scroll_wheel.refmap.json",
+  "mixins": [
+    "QuestPanelScrollMixin",
+    "QuestScreenAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
